@@ -11,7 +11,7 @@
 /* header section start */
   .nav{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
   }
   .navtitle{
@@ -165,4 +165,101 @@ a{
   text-decoration: none;
 }
 
+.future{
+  padding-bottom: 32px;
+}
+
 /* future   cart  start*/
+
+/* Dr. Muhammad Yunus */
+.bg-2{
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
+  padding: 24px;
+}
+.description-2{
+  font-weight: 400;
+  font-size: 15px;
+  text-align: justify;
+  padding: 0px;
+  margin: 0px;
+}
+.tt{
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+.tt2{
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin: 0px;
+  color: #0e0e0e69;
+}
+.t-bg{
+  background-image: url(../img/quote-bg.png);
+  background-position:top left;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+}
+.description-2{
+  font-weight: 500;
+  font-size: 16px;
+  text-align: justify;
+  color: #0e0e0eca;
+}
+
+
+/* Your Opinion Matters */
+
+.Opinion-Matters{
+  padding-top: 40px;
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.container{
+  background-color: white;
+  padding: 32px;
+}
+
+
+/* table section */
+table {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+  border-collapse: collapse;
+}
+th{
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  padding: 24px;
+  background-color: #C6E4D6;
+}
+
+td{
+  font-weight: 600;
+  font-size: 19px;
+  border: 1px solid #dddddd;
+  padding: 36.5px 24px;
+}
+
+.agreebutton {
+  color: black;
+  background-color: #C6E4D6;
+  border: 1px solid #000000;
+  padding: 12.5px 16.5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.agreebutton:hover {
+  background-color: #dfffe6;
+}
