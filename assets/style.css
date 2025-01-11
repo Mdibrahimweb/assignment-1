@@ -263,3 +263,94 @@ td{
 .agreebutton:hover {
   background-color: #dfffe6;
 }
+
+
+/* Recent News */
+.contain{
+  display: flex;
+  gap: 30px;
+  background-color: white;
+  padding: 48px;
+  border-radius: 24px;
+  align-items: center;
+  margin: 24px 0px;
+}
+.newsphoto{
+  border-radius: 24px;
+  width: 400;
+  height: 300;
+}
+
+.newshead{
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+.bold{
+  font-weight: 600;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+
+}
+/* .regular{
+  font-weight: 400;
+  font-size: 15px;
+} */
+ .regular{
+  padding: 0px;
+ }
+.textcolor{
+  color: #000000a1;
+}
+.blockimg{
+  display: block;
+  padding-bottom: 12px;
+}
+
+.btn-2{
+  background-color: #006A50;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 26px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.newsgap{
+  margin: 24px;
+}
+
+
+/* Donate Today */
+
+.Donate{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.Donate-2{
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+.donetpra{
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000ad;
+}
+
+.donetbtn{
+  font-weight: 800;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+.donetbtn:hover{
+  background-color: #C6E4D6;
+}
+
