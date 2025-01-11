@@ -1,109 +1,168 @@
 /* Google Font start */
-.fira-sans-thin {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Google Font end */
+
+/* header section start */
+  .nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
   }
-  
-  .fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
+  .navtitle{
+    font-size: 800;
+    font-weight: 32px;
+
   }
-  
-  .fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .fira-sans-medium {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .fira-sans-semibold {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .fira-sans-bold {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  /* Google Font end */
+/* header section end */
+
+/* hero section */
+
+.herobg{
+  background-color: #C6E4D6;
+  border-radius: 10px;
+  padding: 80px;
+  justify-items: center;
+}
+
+.text{
+  padding: 60px 36px ;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.herotitle{
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.herotop{
+  color: #0e0e0e83;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+.btn{
+  background-color: #006A50;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 17px 34px;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* hero section end*/
+
+/* main-section */
+body{
+max-width: 1140px;
+margin: 0 auto;
+background-color: #f5f5f5;
+
+}
+.heroimg{
+  height: 400px;
+}
+
+
+/* cart section */
+.pilla{
+  padding-top: 80px;
+  padding-bottom: 32px;
+}
+.cart{
+  display: flex;
+  gap: 30px;
+}
+
+.maincart{
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid #00000021;
+}
+
+.carthead{
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.carttitle{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cartdescription{
+  font-weight: 400;
+  font-size: 15px;
+  text-align: justify;
+}
+/* cart section */
+
+/* future   cart  start*/
+
+.futurecart{
+  display: flex;
+  gap: 30px;
+}
+
+.cart-1{
+  background-color: #548ff528;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.cartbtn-1{
+  background-color: #5490F5;
+  color: white;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.cartbtn-2{
+  background-color: #09A15C;
+  color: white;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.cartbtn-3{
+  background-color: #FFC239;
+  color: white;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.cart-2{
+  background-color: #C6E4D6;
+  border-radius: 16px;
+  padding: 32px;
+}
+.cart-3{
+  background-color: #F7EBCF;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.cart-1-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+/* future   cart  start*/
