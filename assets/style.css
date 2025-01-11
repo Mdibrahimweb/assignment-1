@@ -353,4 +353,72 @@ td{
 .donetbtn:hover{
   background-color: #C6E4D6;
 }
+.input{
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 32px;
+  padding: 20px 422px;
+  border: none;
+  border-bottom: 1px solid #0e0e0e42;
+  margin-bottom: 32px;
+
+}
+.Subscribe{
+  margin: 80px 0px;
+  text-align: center;
+  background-color: #C6E4D6;
+  border-collapse: collapse;
+  padding: 80px 250px;
+}
+.subbtn{
+  background-color: #006A50;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 17px 34px;
+  font-weight: 600;
+  font-size: 18px;
+  
+  border-collapse: collapse;
+}
+.input-2{
+  padding: 18px 200px 18px  40px;
+  border-collapse: collapse;
+}
+
+.subinput{
+  display: flex;
+}
+
+.subinput input{
+  padding: 18px 350px 18px  40px;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  align-items: center;
+}
+.subinput input::placeholder{
+  font-size: 18px;
+  color: #cacaca;
+}
+
+.subinput button{
+  background-color: #006A50;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  padding: 17px 34px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.sub-title{
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+.sub-des{
+  font-weight: 400;
+  font-size: 15px;
+}
 
